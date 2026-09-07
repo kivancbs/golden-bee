@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Golden Bee Güzellik Merkezi - Şişli Protez Tırnak, İpek Kirpik, Cilt Bakımı & Epilasyon Salonu. Merkez Mahallesi, Hrant Dink Sokak Şişli/İstanbul.">
+    <meta name="keywords" content="Golden Bee, Şişli güzellik salonu, protez tırnak hrant dink sokak, ipek kirpik merkez mahallesi, cilt bakımı şişli">
+    <title>Golden Bee Güzellik Merkezi | Şişli İstanbul</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <div class="top-bar-info">
+                <span><i class="fa-solid fa-location-dot"></i> <span data-i18n="top_address">Merkez Mah. Hrant Dink Sok. No:31, Şişli / İstanbul</span></span>
+                <span><i class="fa-solid fa-clock"></i> <span data-i18n="top_hours">Pzt - Cmt: 09:00 - 20:00</span></span>
+            </div>
+            <div class="top-bar-contact">
+                <a href="tel:05342049696" class="top-phone"><i class="fa-solid fa-phone"></i> 0534 204 96 96</a>
+                <a href="https://wa.me/905342049696" target="_blank" class="top-wa"><i class="fa-brands fa-whatsapp"></i> <span data-i18n="top_wa">WhatsApp</span></a>
+                
+                <!-- Language Switcher -->
+                <div class="lang-switcher">
+                    <button id="langToggleBtn" class="lang-btn" aria-label="Language Switcher">
+                        <span class="lang-text">EN</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header" id="header">
+        <div class="container header-container">
+            <a href="#" class="brand-logo">
+                <div class="logo-icon-badge">
+                    <i class="fa-solid fa-bee"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name">Golden Bee</span>
+                    <span class="brand-sub">GÜZELLİK MERKEZİ • ŞİŞLİ</span>
+                </div>
+            </a>
+
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="#hero" class="active" data-i18n="nav_home">Ana Sayfa</a></li>
+                    <li><a href="#hizmetler" data-i18n="nav_services">Hizmetlerimiz</a></li>
+                    <li><a href="#hakkimizda" data-i18n="nav_about">Hakkımızda</a></li>
+                    <li><a href="#yorumlar" data-i18n="nav_reviews">Müşteri Yorumları</a></li>
+                    <li><a href="#iletisim" data-i18n="nav_contact">İletişim</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="https://wa.me/905342049696" target="_blank" class="btn btn-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="header_wa">WhatsApp</span>
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuBtn" aria-label="Menüyü Aç">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-backdrop-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-crown"></i> <span data-i18n="hero_badge">Şişli Merkez'in Prestijli Güzellik Salonu</span>
+                </div>
+                <h1 class="hero-title" data-i18n="hero_title">
+                    Güzelliğinize Altın <br>
+                    <span class="gradient-text">Dokunuşlar</span>
+                </h1>
+                <p class="hero-description" data-i18n="hero_desc">
+                    Golden Bee Güzellik Merkezi'nde Protez Tırnak, İpek Kirpik, Cilt Bakımı, Kalıcı Makyaj ve Lazer Epilasyon uygulamalarıyla kendinizi şımartın.
+                </p>
+
+                <!-- 2 Action Buttons -->
+                <div class="hero-buttons">
+                    <a href="https://wa.me/905342049696" target="_blank" class="btn btn-whatsapp btn-lg">
+                        <i class="fa-brands fa-whatsapp"></i> <span data-i18n="hero_btn_wa">WhatsApp Randevu & Danışma</span>
+                    </a>
+                    <a href="https://maps.google.com/?q=Merkez+Mahallesi+Hrant+Dink+Sok+No+31+Sisli+Istanbul" target="_blank" class="btn btn-maps btn-lg">
+                        <i class="fa-solid fa-map-location-dot"></i> <span data-i18n="hero_btn_maps">Google Maps'te Yol Tarifi</span>
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">4.4 ★</span>
+                        <span class="stat-label" data-i18n="stat_google_reviews">264 Google Yorumu</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-num">%100</span>
+                        <span class="stat-label" data-i18n="stat_satisfaction">Müşteri Memnuniyeti</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-num">7/24</span>
+                        <span class="stat-label" data-i18n="stat_hygiene">Steril Hijyen Standartı</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-card-stack">
+                    <div class="glass-card main-visual-card">
+                        <div class="card-icon-header">
+                            <div class="icon-circle"><i class="fa-solid fa-bee"></i></div>
+                            <div class="card-tag" data-i18n="hero_card_tag">Gold VIP Bakım Deneyimi</div>
+                        </div>
+                        <h3>Golden Bee Studio</h3>
+                        <p data-i18n="hero_card_desc">Kişiye özel tasarım nail art, hacimli ipek kirpikler ve ışıltılı cilt bakımları.</p>
+                        
+                        <div class="popular-services-mini">
+                            <div class="mini-tag" data-i18n="mini_tag_1">💅 Protez Tırnak</div>
+                            <div class="mini-tag" data-i18n="mini_tag_2">👁️ İpek Kirpik</div>
+                            <div class="mini-tag" data-i18n="mini_tag_3">❄️ Cilt Bakımı</div>
+                            <div class="mini-tag" data-i18n="mini_tag_4">👄 Kalıcı Makyaj</div>
+                        </div>
+                    </div>
+                    <div class="floating-badge badge-1">
+                        <i class="fa-solid fa-star text-gold"></i> <span data-i18n="badge_google">4.4 Google Puanı (264 Yorum)</span>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fa-solid fa-shield-heart text-gold"></i> <span data-i18n="badge_team">Uzman & Sertifikalı Kadro</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="hizmetler">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle" data-i18n="services_subtitle">ÖZEL BAKIM PROTOKOLLERİ</span>
+                <h2 class="section-title" data-i18n="services_title">Hizmetlerimiz</h2>
+                <p class="section-desc" data-i18n="services_desc">Golden Bee kalitesiyle geliştirilmiş estetik ve bakım uygulamalarımızla tanışın.</p>
+            </div>
+
+            <!-- Service Filter Tabs -->
+            <div class="service-tabs">
+                <button class="tab-btn active" data-filter="all" data-i18n="tab_all">Tümü</button>
+                <button class="tab-btn" data-filter="tirnak" data-i18n="tab_nails">Protez Tırnak & Manikür</button>
+                <button class="tab-btn" data-filter="kirpik" data-i18n="tab_lashes">İpek Kirpik & Lifting</button>
+                <button class="tab-btn" data-filter="cilt" data-i18n="tab_skin">Cilt Bakımı & Epilasyon</button>
+                <button class="tab-btn" data-filter="makyaj" data-i18n="tab_makeup">Kalıcı Makyaj & İncelme</button>
+            </div>
+
+            <!-- Service Cards Grid -->
+            <div class="services-grid">
+                
+                <!-- Service 1 -->
+                <div class="service-card" data-category="tirnak">
+                    <div class="service-card-header">
+                        <div class="service-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+                        <span class="service-badge" data-i18n="badge_popular">En Popüler</span>
+                    </div>
+                    <h3 class="service-name" data-i18n="s1_name">Protez Tırnak & Nail Art</h3>
+                    <p class="service-info" data-i18n="s1_info">
+                        Jel ve akrilik sistemlerle kırılmayan, bakımlı ve şık tırnaklar. Kişiye özel el çizimi nail art ve trend tasarımlar.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s1_f1">Medikal Şablon Kurulumu</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s1_f2">Sınırsız Nail Art Renk Kataloğu</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s1_f3">3-4 Hafta Dayanıklılık Garantisi</span></li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card" data-category="kirpik">
+                    <div class="service-card-header">
+                        <div class="service-icon"><i class="fa-solid fa-eye"></i></div>
+                        <span class="service-badge" data-i18n="badge_special">Özel İlgi</span>
+                    </div>
+                    <h3 class="service-name" data-i18n="s2_name">İpek Kirpik (Klasik, Volume, Mega)</h3>
+                    <p class="service-info" data-i18n="s2_info">
+                        Göz yapınıza en uygun kıvrım ve hacimde ipek kirpik uygulamaları. Bakışlarınıza derinlik ve çekicilik katın.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s2_f1">1:1 Klasik & 3D/5D Volume Kirpik</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s2_f2">Anti-Alerjenik Özel Yapıştırıcı</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s2_f3">Doğal ve Hafif Hissiyat</span></li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card" data-category="kirpik">
+                    <div class="service-card-header">
+                        <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    </div>
+                    <h3 class="service-name" data-i18n="s3_name">Kirpik Lifting & Kaş Laminasyonu</h3>
+                    <p class="service-info" data-i18n="s3_info">
+                        Kendi doğal kirpiklerinize ekstra uzunluk, hacim ve kıvrım kazandıran keratin bakım destekli lifting.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s3_f1">Keratin & Vitamin Kompleksi</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s3_f2">6-8 Hafta Kalıcılık</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s3_f3">Kaş Şekillendirme & Boyama</span></li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card" data-category="cilt">
+                    <div class="service-card-header">
+                        <div class="service-icon"><i class="fa-solid fa-snowflake"></i></div>
+                        <span class="service-badge" data-i18n="badge_medical">Medikal</span>
+                    </div>
+                    <h3 class="service-name" data-i18n="s4_name">Hydrafacial & Derin Cilt Bakımı</h3>
+                    <p class="service-info" data-i18n="s4_info">
+                        Cildinizi ölü hücrelerden ve siyah noktalardan arındıran, nem ve anti-aging serumlarla ışıltı kazandıran bakım.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s4_f1">Vakumlu Derin Gözenek Temizliği</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s4_f2">Led Terapi & Radyofrekans</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s4_f3">Anında Işıltılı & Canlı Cilt</span></li>
+                    </ul>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card" data-category="cilt">
+                    <div class="service-card-header">
+                        <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+                    </div>
+                    <h3 class="service-name" data-i18n="s5_name">Lazer Epilasyon (Buz Başlıklı)</h3>
+                    <p class="service-info" data-i18n="s5_info">
+                        Acısız, konforlu ve son teknoloji buz başlıklı epilasyon cihazı ile 4 mevsim istenmeyen tüylerden kurtulun.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s5_f1">Acısız ve Soğutmalı Başlık</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s5_f2">Tüm Cilt Tiplerine Uygun</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s5_f3">Hızlı ve Etkili Seanslar</span></li>
+                    </ul>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card" data-category="makyaj">
+                    <div class="service-card-header">
+                        <div class="service-icon"><i class="fa-solid fa-heart"></i></div>
+                        <span class="service-badge" data-i18n="badge_trend">Trend</span>
+                    </div>
+                    <h3 class="service-name" data-i18n="s6_name">Kalıcı Makyaj & Microblading</h3>
+                    <p class="service-info" data-i18n="s6_info">
+                        Doğal kaş görünümü veren Microblading kıl tekniği, canlı Dudak Renklendirme ve Dipliner uygulamaları.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s6_f1">Doğal Organik Pigmentler</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s6_f2">Altın Oran Kaş Çizimi</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s6_f3">1.5 - 2 Yıl Kalıcılık</span></li>
+                    </ul>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="service-card" data-category="makyaj">
+                    <div class="service-card-header">
+                        <div class="service-icon"><i class="fa-solid fa-spa"></i></div>
+                    </div>
+                    <h3 class="service-name" data-i18n="s7_name">Bölgesel İncelme & G5 Masajı</h3>
+                    <p class="service-info" data-i18n="s7_info">
+                        Selülit giderici, bölgesel yağ yakımını hızlandıran ve vücudu sıkılaştıran profesyonel masaj ve cihazlı bakımlar.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s7_f1">G5 Ritmik Titreşim Teknolojisi</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s7_f2">Ödem & Selülit Karşıtı Etki</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s7_f3">Sıkılaşma & Dolaşım Hızlandırma</span></li>
+                    </ul>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="service-card" data-category="tirnak">
+                    <div class="service-card-header">
+                        <div class="service-icon"><i class="fa-solid fa-shoe-prints"></i></div>
+                    </div>
+                    <h3 class="service-name" data-i18n="s8_name">Medikal Pedikür & Spa Ayak Bakımı</h3>
+                    <p class="service-info" data-i18n="s8_info">
+                        Hijyenik koşullarda batık, nasır ve topuk çatlağı bakımları ile ayaklarınıza hak ettiği estetiği sağlayın.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s8_f1">Medikal Steril Ekipmanlar</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s8_f2">Peeling & Nem Banyosu</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="s8_f3">Kalıcı Oje Seçeneği</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us / Feature Highlights -->
+    <section class="about-section" id="hakkimizda">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text-content">
+                    <span class="section-subtitle" data-i18n="about_subtitle">GOLDEN BEE FARKI</span>
+                    <h2 class="section-title" data-i18n="about_title">Neden Bizi Tercih Etmelisiniz?</h2>
+                    <p class="lead-text" data-i18n="about_lead">
+                        Şişli Merkez Mahallesi Hrant Dink Sokak'ta yer alan salonumuzda, güzellik ve bakım standartlarını en üst seviyeye taşıyoruz.
+                    </p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-pump-soap"></i></div>
+                            <div class="feature-detail">
+                                <h4 data-i18n="feat1_title">Otoklav Sterilizasyonu & %100 Hijyen</h4>
+                                <p data-i18n="feat1_desc">Tüm aletlerimiz her danışanımız sonrasında medikal standartlarda sterilize edilmektedir.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-certificate"></i></div>
+                            <div class="feature-detail">
+                                <h4 data-i18n="feat2_title">Sertifikalı & Uzman Estetisyenler</h4>
+                                <p data-i18n="feat2_desc">Alanında uzman, uluslararası teknik eğitim almış deneyimli kadro ile hizmet veriyoruz.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-heart"></i></div>
+                            <div class="feature-detail">
+                                <h4 data-i18n="feat3_title">Premium Kalite Ürünler</h4>
+                                <p data-i18n="feat3_desc">Sadece dermatolojik olarak test edilmiş, orijinal ve yüksek kaliteli dünya markalarını kullanıyoruz.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-card-visual">
+                    <div class="glass-card feature-showcase-card">
+                        <div class="salon-info-box">
+                            <div class="info-icon"><i class="fa-solid fa-bee"></i></div>
+                            <div>
+                                <h3>Golden Bee Güzellik Merkezi</h3>
+                                <p data-i18n="salon_sub_desc">Şişli Protez Tırnak & İpek Kirpik Stüdyosu</p>
+                            </div>
+                        </div>
+                        <hr class="card-hr">
+                        <ul class="hours-list">
+                            <li><span data-i18n="day_mon">Pazartesi:</span> <strong>09:00 - 20:00</strong></li>
+                            <li><span data-i18n="day_tue">Salı:</span> <strong>09:00 - 20:00</strong></li>
+                            <li><span data-i18n="day_wed">Çarşamba:</span> <strong>09:00 - 20:00</strong></li>
+                            <li><span data-i18n="day_thu">Perşembe:</span> <strong>09:00 - 20:00</strong></li>
+                            <li><span data-i18n="day_fri">Cuma:</span> <strong>09:00 - 20:00</strong></li>
+                            <li><span data-i18n="day_sat">Cumartesi:</span> <strong>09:00 - 20:00</strong></li>
+                            <li><span data-i18n="day_sun">Pazar:</span> <strong class="text-pink" data-i18n="status_closed">Kapalı</strong></li>
+                        </ul>
+                        <div class="address-highlight">
+                            <div class="address-text"><i class="fa-solid fa-location-dot text-gold"></i> <span data-i18n="top_address">Merkez Mah. Hrant Dink Sok. No:31, Şişli / İstanbul</span></div>
+                            <a href="https://maps.google.com/?q=Merkez+Mahallesi+Hrant+Dink+Sok+No+31+Sisli+Istanbul" target="_blank" class="address-maps-btn">
+                                <i class="fa-solid fa-map-location-dot"></i> <span data-i18n="btn_maps_open">Google Maps'te Aç</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Customer Reviews -->
+    <section class="testimonials-section" id="yorumlar">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle" data-i18n="reviews_subtitle">MUTLU DANIŞANLARIMIZ</span>
+                <h2 class="section-title" data-i18n="reviews_title">Müşteri Yorumları</h2>
+                <p class="section-desc" data-i18n="reviews_desc">Google'daki 264 gerçek danışanımızın Golden Bee hakkındaki değerlendirmeleri.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text" data-i18n="rev1_text">
+                        "Şişli'deki en güler yüzlü ve kaliteli güzellik salonu! Tırnak ve kirpik işlemlerimde her zaman inanılmaz özenliler. Temizlik ve sterilizasyon 10/10."
+                    </p>
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">B.A</div>
+                        <div>
+                            <h5>Burcu A.</h5>
+                            <span data-i18n="rev1_role">Google Yorumu (5 Yıldız)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text" data-i18n="rev2_text">
+                        "Hydrafacial cilt bakımı yaptırdım, cildim pamuk gibi oldu ve siyah noktalardan eser kalmadı. İlginiz için çok teşekkür ederim Golden Bee ekibi!"
+                    </p>
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">D.S</div>
+                        <div>
+                            <h5>Duygu S.</h5>
+                            <span data-i18n="rev2_role">Google Yorumu (5 Yıldız)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text" data-i18n="rev3_text">
+                        "Buz lazer epilasyon seanslarım harika geçiyor, hiç acı hissetmiyorum ve çok hızlı sonuç aldım. Şişli'de kesinlikle tavsiye edeceğim tek salon."
+                    </p>
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">Z.T</div>
+                        <div>
+                            <h5>Zeynep T.</h5>
+                            <span data-i18n="rev3_role">Google Yorumu (5 Yıldız)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Direct Contact Section -->
+    <section class="contact-section" id="iletisim">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <div class="contact-info-panel">
+                    <span class="section-subtitle" data-i18n="contact_subtitle">BİZE ULAŞIN</span>
+                    <h2 class="section-title" data-i18n="contact_title">İletişim & Konum</h2>
+                    <p class="contact-lead" data-i18n="contact_lead">
+                        Şişli Merkez Mahallesi Hrant Dink Sokak'taki salonumuzda sizleri ağırlamaktan mutluluk duyarız. İletişim ve randevu için bize hemen ulaşın.
+                    </p>
+
+                    <div class="contact-cards-stack">
+                        <div class="c-info-card">
+                            <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4 data-i18n="c_address_title">Adresimiz</h4>
+                                <p data-i18n="top_address">Merkez Mah. Hrant Dink Sok. No:31, Şişli / İstanbul (34360)</p>
+                            </div>
+                        </div>
+
+                        <div class="c-info-card">
+                            <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4 data-i18n="c_phone_title">Telefon Hattımız</h4>
+                                <p><a href="tel:05342049696">0534 204 96 96</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Clean Direct Contact Actions Panel -->
+                <div class="contact-action-panel">
+                    <div class="glass-card direct-contact-card text-center">
+                        <div class="direct-icon-header">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+                        <h3 data-i18n="direct_title">Doğrudan İletişime Geçin</h3>
+                        <p data-i18n="direct_desc">Sorularınız, fiyat bilgisi ve randevu talepleriniz için aşağıdaki bağlantılardan bize anında ulaşabilirsiniz.</p>
+                        
+                        <div class="direct-buttons-stack">
+                            <a href="https://wa.me/905342049696" target="_blank" class="btn btn-whatsapp btn-block btn-lg">
+                                <i class="fa-brands fa-whatsapp"></i> <span data-i18n="btn_wa_direct">WhatsApp Randevu & Danışma</span>
+                            </a>
+                            <a href="tel:05342049696" class="btn btn-phone btn-block btn-lg">
+                                <i class="fa-solid fa-phone"></i> <span data-i18n="btn_phone_direct">Telefon İle Hemen Ara (0534 204 96 96)</span>
+                            </a>
+                            <a href="https://maps.google.com/?q=Merkez+Mahallesi+Hrant+Dink+Sok+No+31+Sisli+Istanbul" target="_blank" class="btn btn-maps btn-block btn-lg">
+                                <i class="fa-solid fa-map-location-dot"></i> <span data-i18n="btn_maps_direct">Google Maps'te Yol Tarifi Al</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <div class="logo-icon-badge">
+                            <i class="fa-solid fa-bee"></i>
+                        </div>
+                        <div class="brand-text">
+                            <span class="brand-name">Golden Bee</span>
+                            <span class="brand-sub">GÜZELLİK MERKEZİ</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc" data-i18n="footer_desc">
+                        Şişli Merkez Mahallesi'nin kalbinde kişiye özel güzellik ve estetik bakımları.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 data-i18n="footer_title_links">Hızlı Bağlantılar</h4>
+                    <ul>
+                        <li><a href="#hero" data-i18n="nav_home">Ana Sayfa</a></li>
+                        <li><a href="#hizmetler" data-i18n="nav_services">Hizmetlerimiz</a></li>
+                        <li><a href="#hakkimizda" data-i18n="nav_about">Hakkımızda</a></li>
+                        <li><a href="#iletisim" data-i18n="nav_contact">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h4 data-i18n="footer_title_services">Popüler Hizmetler</h4>
+                    <ul>
+                        <li><a href="#hizmetler" data-i18n="s1_name">Protez Tırnak & Nail Art</a></li>
+                        <li><a href="#hizmetler" data-i18n="s2_name">İpek Kirpik</a></li>
+                        <li><a href="#hizmetler" data-i18n="s4_name">Hydrafacial Cilt Bakımı</a></li>
+                        <li><a href="#hizmetler" data-i18n="s6_name">Microblading Kaş</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4 data-i18n="footer_title_social">İletişim Bilgileri</h4>
+                    <a href="tel:05342049696" class="social-link">
+                        <i class="fa-solid fa-phone"></i> 0534 204 96 96
+                    </a>
+                    <a href="https://wa.me/905342049696" target="_blank" class="social-link">
+                        <i class="fa-brands fa-whatsapp"></i> +90 534 204 96 96
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom text-center">
+                <p data-i18n="footer_copyright">&copy; 2026 Golden Bee Güzellik Merkezi. Tüm Hakları Saklıdır. | Şişli İstanbul</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Sticky Action Buttons -->
+    <div class="floating-actions">
+        <a href="tel:05342049696" class="float-btn float-phone" aria-label="Hemen Ara">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+        <a href="https://wa.me/905342049696" target="_blank" class="float-btn float-wa" aria-label="WhatsApp Randevu">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
