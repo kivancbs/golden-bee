@@ -256,6 +256,129 @@ const translations = {
         footer_title_services: "Popular Services",
         footer_title_social: "Contact Info",
         footer_copyright: "© 2026 Golden Bee Beauty Center. All Rights Reserved. | Şişli Istanbul"
+    },
+    ru: {
+        top_address: "Меркез Мах. Грант Динк Ул. №31, Шишли / Стамбул",
+        top_hours: "Пн - Сб: 09:00 - 20:00",
+        top_wa: "WhatsApp",
+        header_wa: "WhatsApp",
+        brand_sub: "САЛОН КРАСОТЫ • ADMIRE THE BEAUTY",
+        nav_home: "Главная",
+        nav_services: "Услуги",
+        nav_about: "О нас",
+        nav_reviews: "Отзывы",
+        nav_contact: "Контакты",
+        hero_badge: "Престижный салон красоты в центре Шишли",
+        hero_title: "Золотое прикосновение <br><span class=\"gradient-text\">к вашей красоте</span>",
+        hero_desc: "Побалуйте себя в центре красоты Golden Bee: наращивание ногтей, ресниц, уход за кожей, перманентный макияж и лазерная эпиляция.",
+        hero_btn_wa: "Запись в WhatsApp",
+        hero_btn_maps: "Маршрут в Google Maps",
+        stat_google_reviews: "Отзывы в Google Maps",
+        stat_satisfaction: "Индивидуальный VIP уход",
+        stat_hygiene: "Медицинский стандарт гигиены",
+        hero_card_tag: "Gold VIP уход",
+        hero_card_desc: "Индивидуальный дизайн ногтей, объемные ресницы и сияющий уход за кожей.",
+        mini_tag_1: "💅 Наращивание ногтей",
+        mini_tag_2: "👁️ Ресницы",
+        mini_tag_3: "❄️ Уход за кожей",
+        mini_tag_4: "👄 Татуаж",
+        badge_google: "Отзывы клиентов",
+        badge_team: "Сертифицированные мастера",
+        services_subtitle: "ЭКСКЛЮЗИВНЫЕ ПРОТОКОЛЫ КРАСОТЫ",
+        services_title: "Наши Услуги",
+        services_desc: "Познакомьтесь с процедурами красоты и ухода высочайшего качества в Golden Bee.",
+        tab_all: "Все",
+        tab_nails: "Ногти и Маникюр",
+        tab_lashes: "Ресницы и Ламинирование",
+        tab_skin: "Уход за кожей и Лазер",
+        tab_makeup: "Татуаж и Коррекция",
+        badge_popular: "Популярно",
+        badge_special: "Особый уход",
+        badge_medical: "Медицинский",
+        badge_trend: "Тренд",
+        s1_name: "Наращивание ногтей & Дизайн",
+        s1_info: "Прочные и элегантные гелевые и акриловые ногти. Ручная роспись и трендовые дизайны.",
+        s1_f1: "Аппаратный и медицинский маникюр",
+        s1_f2: "Богатая палитра цветов и дизайнов",
+        s1_f3: "Стойкость от 3 до 4 недель",
+        s2_name: "Наращивание ресниц (Классика, Объем, Мега)",
+        s2_info: "Наращивание ресниц с учетом формы ваших глаз. Придайте взгляду выразительность и глубину.",
+        s2_f1: "1:1 Классика & 3D/5D Объем",
+        s2_f2: "Гипоаллергенный премиум клей",
+        s2_f3: "Естественность и легкость",
+        s3_name: "Ламинирование ресниц и бровей",
+        s3_info: "Кератиновый уход, придающий натуральным ресницам длину, объем и изгиб.",
+        s3_f1: "Кератиновый и витаминный комплекс",
+        s3_f2: "Эффект сохраняется 6-8 недель",
+        s3_f3: "Моделирование и окрашивание бровей",
+        s4_name: "Hydrafacial и чистка лица",
+        s4_info: "Глубокое очищение пор, удаление черных точек и омоложение кожи с сыворотками.",
+        s4_f1: "Вакуумная чистка пор",
+        s4_f2: "LED-терапия и РФ-лифтинг",
+        s4_f3: "Мгновенное сияние и свежесть",
+        s5_name: "Лазерная эпиляция (Ледяной датчик)",
+        s5_info: "Безболезненная и комфортная лазерная эпиляция с охлаждающим эффектом в любое время года.",
+        s5_f1: "Охлаждающий наконечник",
+        s5_f2: "Для всех типов кожи",
+        s5_f3: "Быстрые и эффективные сеансы",
+        s6_name: "Перманентный макияж & Микроблейдинг",
+        s6_info: "Естественная волосковая техника Микроблейдинг, перманент губ и межресничка.",
+        s6_f1: "Натуральные органические пигменты",
+        s6_f2: "Эскиз по правилу золотого сечения",
+        s6_f3: "Стойкость 1.5 - 2 года",
+        s7_name: "Коррекция фигуры & Массаж G5",
+        s7_info: "Антицеллюлитный массаж, расщепление жировых отложений и подтяжка тела.",
+        s7_f1: "Технология вибрационного массажа G5",
+        s7_f2: "Противоотечный и лимфодренажный эффект",
+        s7_f3: "Улучшение тонуса и кровообращения",
+        s8_name: "Медицинский педикюр & СПА уход",
+        s8_info: "Гигиенический уход за стопами, вросшими ногтями и мозолями в стерильных условиях.",
+        s8_f1: "Стерильные медицинские инструменты",
+        s8_f2: "Пилинг и увлажняющие ванночки",
+        s8_f3: "Покрытие гель-лаком",
+        about_subtitle: "ПРЕИМУЩЕСТВА GOLDEN BEE",
+        about_title: "Почему выбирают нас?",
+        about_lead: "В нашем салоне в Шишли на улице Грант Динк мы поднимаем стандарты красоты на высший уровень.",
+        feat1_title: "Автоклавная стерилизация & Медицинская гигиена",
+        feat1_desc: "Все инструменты проходят стерилизацию медицинского класса после каждого клиента.",
+        feat2_title: "Сертифицированные мастера",
+        feat2_desc: "Наша команда состоит из дипломированных специалистов международного уровня.",
+        feat3_title: "Премиальная косметика",
+        feat3_desc: "Мы используем только дерматологически протестированную оригинальную косметику мировых брендов.",
+        salon_sub_desc: "Студия ногтей и ресниц в Шишли",
+        day_mon: "Понедельник:",
+        day_tue: "Вторник:",
+        day_wed: "Среда:",
+        day_thu: "Четверг:",
+        day_fri: "Пятница:",
+        day_sat: "Суббота:",
+        day_sun: "Воскресенье:",
+        status_closed: "Выходной",
+        btn_maps_open: "Открыть в Google Maps",
+        reviews_subtitle: "СЧАСТЛИВЫЕ КЛИЕНТЫ",
+        reviews_title: "Отзывы Клиентов",
+        reviews_desc: "Реальные отзывы наших клиентов о салоне красоты Golden Bee.",
+        rev1_text: "\"Самый дружелюбный и качественный салон красоты в Шишли! Всегда аккуратная работа с ногтями и ресницами. Чистота 10/10.\"",
+        rev1_role: "Отзыв в Google (5 звезд)",
+        rev2_text: "\"Сделала чистку лица Hydrafacial, кожа стала невероятно нежной. Огромное спасибо команде Golden Bee!\"",
+        rev2_role: "Отзыв в Google (5 звезд)",
+        rev3_text: "\"Сеансы лазерной эпиляции проходят отлично, совсем безболезненно и очень быстрый результат. Очень рекомендую!\"",
+        rev3_role: "Отзыв в Google (5 звезд)",
+        contact_subtitle: "СВЯЗАТЬСЯ С НАМИ",
+        contact_title: "Контакты & Адрес",
+        contact_lead: "Мы рады приветствовать вас в нашем салоне в Шишли на улице Грант Динк. Свяжитесь с нами для записи.",
+        c_address_title: "Наш Адрес",
+        c_phone_title: "Телефон",
+        direct_title: "Прямая Связь",
+        direct_desc: "Свяжитесь с нами мгновенно по ссылкам ниже для уточнения цен и записи.",
+        btn_wa_direct: "Запись в WhatsApp",
+        btn_phone_direct: "Позвонить (0534 204 96 96)",
+        btn_maps_direct: "Построить маршрут в Google Maps",
+        footer_desc: "Индивидуальный уход и эстетическая красота в самом сердце Шишли.",
+        footer_title_links: "Быстрые ссылки",
+        footer_title_services: "Популярные услуги",
+        footer_title_social: "Контактная информация",
+        footer_copyright: "© 2026 Golden Bee Beauty Center. Все права защищены. | Шишли Стамбул"
     }
 };
 
@@ -263,27 +386,34 @@ const translations = {
 let currentLang = localStorage.getItem('golden_bee_lang') || 'tr';
 
 function initLanguageSwitcher() {
-    const langBtn = document.getElementById('langToggleBtn');
-    if (!langBtn) return;
+    const langBtns = document.querySelectorAll('.lang-btn');
+    if (!langBtns.length) return;
 
     setLanguage(currentLang);
 
-    langBtn.addEventListener('click', () => {
-        currentLang = currentLang === 'tr' ? 'en' : 'tr';
-        localStorage.setItem('golden_bee_lang', currentLang);
-        setLanguage(currentLang);
+    langBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const lang = btn.getAttribute('data-lang');
+            if (lang && translations[lang]) {
+                currentLang = lang;
+                localStorage.setItem('golden_bee_lang', currentLang);
+                setLanguage(currentLang);
+            }
+        });
     });
 }
 
 function setLanguage(lang) {
-    const langBtn = document.getElementById('langToggleBtn');
-    const langTextSpan = langBtn ? langBtn.querySelector('.lang-text') : null;
-
-    if (langTextSpan) {
-        langTextSpan.textContent = lang === 'tr' ? 'EN' : 'TR';
-    }
-
     document.documentElement.lang = lang;
+
+    const langBtns = document.querySelectorAll('.lang-btn');
+    langBtns.forEach(btn => {
+        if (btn.getAttribute('data-lang') === lang) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
 
     const elements = document.querySelectorAll('[data-i18n]');
     elements.forEach(el => {
